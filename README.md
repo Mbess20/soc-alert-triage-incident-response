@@ -50,35 +50,35 @@ These are the eight screenshots captured during the exercise, presented in inves
 
 ### 1. Initial review of the eight synthetic events in Splunk
 
-![Initial review of the eight synthetic events in Splunk](01_Raw_Event_Review.png)
+![Initial review of the eight synthetic events in Splunk](https://raw.githubusercontent.com/Mbess20/soc-alert-triage-incident-response/main/01_Raw_Event_Review.png)
 
 ### 2. Event-type counts across the dataset
 
-![Event-type counts across the dataset](02_Event_Type_Summary.png)
+![Event-type counts across the dataset](https://raw.githubusercontent.com/Mbess20/soc-alert-triage-incident-response/main/02_Event_Type_Summary.png)
 
 ### 3. Chronological event timeline for both accounts
 
-![Chronological event timeline for both accounts](03_Full_Event_Timeline.png)
+![Chronological event timeline for both accounts](https://raw.githubusercontent.com/Mbess20/soc-alert-triage-incident-response/main/03_Full_Event_Timeline.png)
 
 ### 4. Account-specific review of the six jordan events
 
-![Account-specific review of the six jordan events](04_Account_Investigation.png)
+![Account-specific review of the six jordan events](https://raw.githubusercontent.com/Mbess20/soc-alert-triage-incident-response/main/04_Account_Investigation.png)
 
 ### 5. Second view of the suspicious-account evidence
 
-![Second view of the suspicious-account evidence](05_Account_Evidence_Review.png)
+![Second view of the suspicious-account evidence](https://raw.githubusercontent.com/Mbess20/soc-alert-triage-incident-response/main/05_Account_Evidence_Review.png)
 
 ### 6. Detection event shown in the event viewer
 
-![Detection event shown in the event viewer](06_Detection_Event_Review.png)
+![Detection event shown in the event viewer](https://raw.githubusercontent.com/Mbess20/soc-alert-triage-incident-response/main/06_Detection_Event_Review.png)
 
 ### 7. Process-creation comparison for suspicious and benign activity
 
-![Process-creation comparison for suspicious and benign activity](07_Process_Comparison.png)
+![Process-creation comparison for suspicious and benign activity](https://raw.githubusercontent.com/Mbess20/soc-alert-triage-incident-response/main/07_Process_Comparison.png)
 
 ### 8. Final six-event jordan timeline
 
-![Final six-event jordan timeline](08_Final_Account_Timeline.png)
+![Final six-event jordan timeline](https://raw.githubusercontent.com/Mbess20/soc-alert-triage-incident-response/main/08_Final_Account_Timeline.png)
 
 ## Example Splunk searches
 
