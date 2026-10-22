@@ -13,7 +13,7 @@ I used Splunk Enterprise to investigate a simulated alert involving Microsoft Wo
 | Component | Details |
 |---|---|
 | Analysis platform | Splunk Enterprise 10.6.1 on macOS |
-| Data source | Synthetic CSV: `data/soc_lab3_powershell_alerts.csv` |
+| Data source | Synthetic CSV: `soc_lab3_powershell_alerts.csv` |
 | Splunk ingestion host | `SOC-LAB-02` (upload label) |
 | Simulated endpoint | `WIN-LAB-02` (CSV `Host` field) |
 | Simulated user | `jordan` |
@@ -50,35 +50,35 @@ These are the eight screenshots captured during the exercise, presented in inves
 
 ### 1. Initial review of the eight synthetic events in Splunk
 
-![Initial review of the eight synthetic events in Splunk](screenshots/01_Raw_Event_Review.png)
+![Initial review of the eight synthetic events in Splunk](01_Raw_Event_Review.png)
 
 ### 2. Event-type counts across the dataset
 
-![Event-type counts across the dataset](screenshots/02_Event_Type_Summary.png)
+![Event-type counts across the dataset](02_Event_Type_Summary.png)
 
 ### 3. Chronological event timeline for both accounts
 
-![Chronological event timeline for both accounts](screenshots/03_Full_Event_Timeline.png)
+![Chronological event timeline for both accounts](03_Full_Event_Timeline.png)
 
 ### 4. Account-specific review of the six jordan events
 
-![Account-specific review of the six jordan events](screenshots/04_Account_Investigation.png)
+![Account-specific review of the six jordan events](04_Account_Investigation.png)
 
 ### 5. Second view of the suspicious-account evidence
 
-![Second view of the suspicious-account evidence](screenshots/05_Account_Evidence_Review.png)
+![Second view of the suspicious-account evidence](05_Account_Evidence_Review.png)
 
 ### 6. Detection event shown in the event viewer
 
-![Detection event shown in the event viewer](screenshots/06_Detection_Event_Review.png)
+![Detection event shown in the event viewer](06_Detection_Event_Review.png)
 
 ### 7. Process-creation comparison for suspicious and benign activity
 
-![Process-creation comparison for suspicious and benign activity](screenshots/07_Process_Comparison.png)
+![Process-creation comparison for suspicious and benign activity](07_Process_Comparison.png)
 
 ### 8. Final six-event jordan timeline
 
-![Final six-event jordan timeline](screenshots/08_Final_Account_Timeline.png)
+![Final six-event jordan timeline](08_Final_Account_Timeline.png)
 
 ## Example Splunk searches
 
@@ -106,7 +106,7 @@ source="soc_lab3_powershell_alerts.csv" host="SOC-LAB-02" Event_Type="ProcessCre
 | sort _time
 ```
 
-All six investigation searches are provided as reusable `.spl` files in [`queries/`](queries/).
+All six investigation searches are provided as reusable `.spl` files in [``]().
 
 ## Tier 1 SOC assessment
 
@@ -117,7 +117,7 @@ All six investigation searches are provided as reusable `.spl` files in [`querie
 
 ## Investigation report
 
-[Read the SOC Case 003 investigation report (Word)](reports/SOC_Case_003_Investigation_Report.docx)
+[Read the SOC Case 003 investigation report (Word)](SOC_Case_003_Investigation_Report.docx)
 
 The report uses an incident-ticket format with evidence, timeline, analyst assessment, limitations, and recommended next actions. The saved Splunk report is a separate artifact within the local Splunk instance.
 
