@@ -1,0 +1,3 @@
+source="soc_lab3_powershell_alerts.csv" host="SOC-LAB-02" Event_Type="ProcessCreate"
+| table _time Account_Name Process_Name Parent_Process Command_Line Severity
+| sort _time

@@ -1,0 +1,3 @@
+source="soc_lab3_powershell_alerts.csv" host="SOC-LAB-02" Account_Name="jordan"
+| table _time Event_Type EventCode Process_Name Parent_Process Command_Line Severity
+| sort _time

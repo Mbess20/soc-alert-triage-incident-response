@@ -1,0 +1,2 @@
+source="soc_lab3_powershell_alerts.csv" host="SOC-LAB-02" Event_Type="ProcessCreate" Parent_Process="WINWORD.EXE" Process_Name="powershell.exe"
+| table _time Account_Name Host Parent_Process Process_Name Command_Line Severity

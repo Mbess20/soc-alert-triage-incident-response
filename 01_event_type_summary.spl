@@ -1,0 +1,3 @@
+source="soc_lab3_powershell_alerts.csv" host="SOC-LAB-02"
+| stats count by Event_Type
+| sort - count
