@@ -44,9 +44,9 @@ The dataset models process creation, PowerShell script-block activity, network a
 
 All timestamps are from the synthetic CSV and are displayed without an asserted time zone.
 
-## Investigation walkthrough — eight embedded Splunk screenshots
+## Investigation walkthrough — seven embedded Splunk screenshots
 
-These are the eight screenshots captured during the exercise, presented in investigation order. Each image is embedded so it displays directly on GitHub. The underlying events are synthetic; the screenshots show the actual Splunk analysis of that dataset.
+These are the seven unique screenshots captured during the exercise, presented in investigation order. Each image is embedded so it displays directly on GitHub. The underlying events are synthetic; the screenshots show the actual Splunk analysis of that dataset.
 
 ### 1. Initial review of the eight synthetic events in Splunk
 
@@ -64,19 +64,15 @@ These are the eight screenshots captured during the exercise, presented in inves
 
 ![Account-specific review of the six jordan events](https://raw.githubusercontent.com/Mbess20/soc-alert-triage-incident-response/main/04_Account_Investigation.png)
 
-### 5. Second view of the suspicious-account evidence
-
-![Second view of the suspicious-account evidence](https://raw.githubusercontent.com/Mbess20/soc-alert-triage-incident-response/main/05_Account_Evidence_Review.png)
-
-### 6. Detection event shown in the event viewer
+### 5. Detection event shown in the event viewer
 
 ![Detection event shown in the event viewer](https://raw.githubusercontent.com/Mbess20/soc-alert-triage-incident-response/main/06_Detection_Event_Review.png)
 
-### 7. Process-creation comparison for suspicious and benign activity
+### 6. Process-creation comparison for suspicious and benign activity
 
 ![Process-creation comparison for suspicious and benign activity](https://raw.githubusercontent.com/Mbess20/soc-alert-triage-incident-response/main/07_Process_Comparison.png)
 
-### 8. Final six-event jordan timeline
+### 7. Final six-event jordan timeline
 
 ![Final six-event jordan timeline](https://raw.githubusercontent.com/Mbess20/soc-alert-triage-incident-response/main/08_Final_Account_Timeline.png)
 
