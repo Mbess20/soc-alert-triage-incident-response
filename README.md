@@ -102,7 +102,7 @@ source="soc_lab3_powershell_alerts.csv" host="SOC-LAB-02" Event_Type="ProcessCre
 | sort _time
 ```
 
-All six investigation searches are provided as reusable `.spl` files in [``]().
+All six investigation searches are provided as reusable SPL files: [Event type summary](01_event_type_summary.spl), [Full event timeline](02_full_event_timeline.spl), [Account investigation](03_jordan_investigation.spl), [Process comparison](04_process_comparison.spl), [Office-to-PowerShell activity](05_suspicious_office_powershell.spl), and [Alert details](06_alert_details.spl).
 
 ## Tier 1 SOC assessment
 
